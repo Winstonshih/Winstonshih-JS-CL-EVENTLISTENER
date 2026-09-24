@@ -33,13 +33,11 @@ reset.addEventListener("click", resetText);
  * updateTextOnEitherButtonClick should fire.
  */
 
-button1 = document.querySelector('button1');
 
 button1.addEventListener('click', () => {
     updateTextOnButton1Click();
     updateTextOnEitherButtonClick();
 });
-button2 = document.querySelector('button2');
 button2.addEventListener('click', () => {
     updateTextOnButton2Click();
     updateTextOnEitherButtonClick();
